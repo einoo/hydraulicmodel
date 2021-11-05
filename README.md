@@ -11,8 +11,7 @@ Flood modeling by 2D shallow water equation
 
 ## Local inertail approaximation
 
-<img src="https://render.githubusercontent.com/render/math?math=\frac{\partial h ^{i, j}}{\partial t} = 
-\frac{Q_x^{i-1, j} - Q_x^{i, j} + Q_y^{i, j-1} - Q_y^{i, j}}{\Delta x \Delta y}">
+<img src="https://render.githubusercontent.com/render/math?math=\frac{\partial h ^{i, j}}{\partial t} = \frac{Q_x^{i-1, j} - Q_x^{i, j} + Q_y^{i, j-1} - Q_y^{i, j}}{\Delta x \Delta y}">
 
 <img src="https://render.githubusercontent.com/render/math?math=q_{t + \Delta t} = \frac{q_t - gh_{flow, t} \Delta t \frac{\partial h_t}{\partial x}} {1 + g n^2 \Delta t q_t / h_{flow, t}^{7/3}}">
 
@@ -20,10 +19,7 @@ Flood modeling by 2D shallow water equation
 ## Time steps in two methods
 
 - Diffusive wave approximation
-<img src="https://render.githubusercontent.com/render/math?math=\Delta t = \frac{\Delta x^2}{4} min \left( 
-\frac{2n}{h_{flow}^{5/3}}|\frac{\partial h}{\partial x}|^{1/2}, 
-\frac{2n}{h_{flow}^{5/3}}|\frac{\partial h}{\partial y}|^{1/2}
- \right)">
+<img src="https://render.githubusercontent.com/render/math?math=\Delta t = \frac{\Delta x^2}{4} min \left( \frac{2n}{h_{flow}^{5/3}}|\frac{\partial h}{\partial x}|^{1/2}, \frac{2n}{h_{flow}^{5/3}}|\frac{\partial h}{\partial y}|^{1/2} \right)">
 
 - Local inertial approximation
 <img src="https://render.githubusercontent.com/render/math?math=\Delta t = \alpha \frac{\Delta x}{\sqrt{g (h-z)_{max}}}">
