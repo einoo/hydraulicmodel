@@ -1,5 +1,6 @@
 # hydraulicmodel
-Flood modeling by 2D shallow water equation
+Flood modeling by 2D shallow water equation. 
+Refer to Hunter et al (2005), Bates et al. (2010). 
 
 ## Diffusive wave approximation
 
