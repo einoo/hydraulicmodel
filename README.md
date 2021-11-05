@@ -3,8 +3,7 @@ Flood modeling by 2D shallow water equation
 
 ## Diffusive wave approximation
 
-<img src="https://render.githubusercontent.com/render/math?math=\frac{\partial h ^{i, j}}{\partial t} = 
-\frac{Q_x^{i-1, j} - Q_x^{i, j} + Q_y^{i, j-1} - Q_y^{i, j}}{\Delta x \Delta y}">
+<img src="https://render.githubusercontent.com/render/math?math=\frac{\partial h ^{i, j}}{\partial t} = \frac{Q_x^{i-1, j} - Q_x^{i, j} + Q_y^{i, j-1} - Q_y^{i, j}}{\Delta x \Delta y}">
 
 <img src="https://render.githubusercontent.com/render/math?math=Q_x^{i, j} = \frac{h_{flow}^{5/3}}{n} \left( \frac{h^{i-1, j} - h^{i, j}}{\Delta x} \right) ^{1/2} \Delta y">
 
