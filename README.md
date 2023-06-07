@@ -25,7 +25,7 @@ Refer to Hunter et al (2005), Bates et al. (2010).
 - Local inertial approximation
 <img src="https://render.githubusercontent.com/render/math?math=\Delta t = \alpha \frac{\Delta x}{\sqrt{g (h-z)_{max}}}">
 
-## Implementation of these two approximation for simulating the flood in Mobara city on October 25, 2019
+## Implementation of these two approximations for simulating the flood in Mobara city on October 25, 2019
 
 Setting of the domain and boundary conditions
 ![domain](./fig/domain.png)
