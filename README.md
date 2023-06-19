@@ -2,6 +2,21 @@
 Flood modeling by 2D shallow water equation. 
 Refer to Hunter et al (2005), Bates et al. (2010). 
 
+Please refer to the following paper on the detailed implementation and results. 
+
+```
+@Article{ouyang2022employment,
+  author  = {Mao Ouyang and Shunji Kotsuki and Yuka Ito and Tomochika Tokunaga},
+  journal = {Journal of Hydrology: Regional Studies},
+  title   = {Employment of hydraulic model and social media data for flood hazard assessment in an urban city},
+  year    = {2022},
+  issn    = {2214-5818},
+  pages   = {101261},
+  volume  = {44},
+  doi     = {10.1016/j.ejrh.2022.101261},
+}
+```
+
 ## Diffusive wave approximation
 
 <img src="https://render.githubusercontent.com/render/math?math=\frac{\partial h ^{i, j}}{\partial t} = \frac{Q_x^{i-1, j} - Q_x^{i, j} + Q_y^{i, j-1} - Q_y^{i, j}}{\Delta x \Delta y}">
